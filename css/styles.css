@@ -1,0 +1,123 @@
+:root {
+  --primary-text-color : #434455;
+  --title-text-color: #2E2F42;
+  --accent-color: #4D5AE5;
+  --primary-white-color: #FFFFFF;
+  --logo-footer-color: #F4F4FD;
+  --bg-color: #E5E5E5;
+  --button-bg-color: #E7E9FC;
+  
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: var(--bg-color);
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  color: var(--accent-color);
+  font-family: 'Raleway', san-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.logo .header {
+  color: var(--title-text-color);
+}
+
+.logo .footer {
+  color: var(--logo-footer-color);
+}
+
+.logo:hover {
+  color: var(--title-text-color)
+}
+
+.logo .header:hover,
+.logo .footer:hover {
+  color: var(--accent-color)
+}
+
+.site-nav .link {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.mailto, 
+.tel {
+  color: inherit;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.mailto:hover,
+.mailto:focus,
+.tel:hover,
+.tel:focus {
+  color: var(--accent-color);
+}
+
+.hero-title {
+  color: var(--primary-white-color);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+}
+
+.button {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+  }
+
+.section-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+}
+
+.feature-list .title,
+.team-list .title,
+.portfolio-list .title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.address {
+  font-style: normal;
+}
+
+.button-portfolio {
+  color: var(--accent-color);
+  background-color: var(--button-bg-color);
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
