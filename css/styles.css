@@ -5,7 +5,8 @@
   --primary-white-color: #FFFFFF;
   --logo-footer-color: #F4F4FD;
   --bg-color: #E5E5E5;
-  --button-bg-color: #E7E9FC;
+  --button-bg-accent-color: #404BBF;
+  --button-portfolio-bg-color: #E7E9FC;
   
 }
 
@@ -46,7 +47,9 @@ body {
 }
 
 .logo .header:hover,
-.logo .footer:hover {
+.logo .footer:hover,
+.logo .header:focus,
+.logo .footer:focus {
   color: var(--accent-color)
 }
 
@@ -85,9 +88,19 @@ body {
 }
 
 .button {
-    color: var(--primary-white-color);
-    background-color: var(--accent-color);
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.2;
   }
+
+.button:hover,
+.button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--button-bg-accent-color);
+  cursor: pointer;
+}
 
 .section-title {
   color: var(--title-text-color);
@@ -112,7 +125,10 @@ body {
 
 .button-portfolio {
   color: var(--accent-color);
-  background-color: var(--button-bg-color);
+  background-color: var(--button-portfolio-bg-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .button-portfolio:hover,
